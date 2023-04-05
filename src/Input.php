@@ -8,7 +8,6 @@ abstract class Input
 {
     public function __construct(protected readonly string $question)
     {
-
     }
 
     abstract protected function validate(string $answer): bool;
