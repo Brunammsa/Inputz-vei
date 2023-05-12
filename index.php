@@ -8,7 +8,7 @@ use Brunammsa\Inputzvei\InputNumber;
 use Brunammsa\Inputzvei\InputMenu;
 
 $input = new InputMenu('Digite a opção desejada: ');
-$answer = $input->ask();
+ucfirst($answer = $input->ask());
 
 echo "você escolheu a opção $answer" . PHP_EOL;
 

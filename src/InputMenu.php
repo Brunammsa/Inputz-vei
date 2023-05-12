@@ -18,7 +18,6 @@ class InputMenu extends Input
             'List',
             0
         ];
-
-        return !(in_array($answer, $options) === false);
+        return !(in_array(ucfirst($answer), $options) === false);
     }
 }
