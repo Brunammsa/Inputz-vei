@@ -15,7 +15,8 @@ class InputMenu extends Input
             'Insert',
             'Update',
             'Remove',
-            'List'
+            'List',
+            0
         ];
 
         return !(in_array($answer, $options) === false);
